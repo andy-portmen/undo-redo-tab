@@ -1,0 +1,22 @@
+{
+  "name": "Undo/Redo Tabs",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "short_name": "irutabs",
+  "description": "Undo closed Tab(s) or Create a Duplicate of Your Current Tab",
+  "author": "Andy Portmen",
+  "browser_action": {
+    "default_icon": "data/icon16.png",
+    "default_popup": "data/popup/popup.html",
+    "default_title": "Undo/Redo Tabs"
+  },
+  "background": {
+    "scripts": ["lib/task.js", "lib/chrome.js", "lib/common.js"]
+  },
+  "permissions": ["tabs", "<all_urls>"],
+  "icons": {
+    "16": "data/icon16.png",
+    "48": "data/icon48.png",
+    "128": "data/icon128.png" 
+  }
+}

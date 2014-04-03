@@ -1,0 +1,43 @@
+body {
+  width: 100px;
+  overflow: hidden;
+  color: #444;
+  margin: 0px 0px 0px 0px;
+  background-color: #fff;
+  -moz-user-select: none;
+  cursor: defualt;
+}
+.webkit body {
+  margin: 10px;
+}
+#undo-redo-table{
+  height: 45px;
+}
+#undo-td {
+  width: 45px; 
+  border-radius: 2px;
+  background: #F3F3F3 url(undo32.png) no-repeat center center;
+  -webkit-transition: 200ms opacity; 
+  -moz-transition: 200ms opacity;
+  opacity: 0.5;
+}
+#undo-td:hover{
+  -webkit-transition: 200ms opacity; 
+  -moz-transition: 200ms opacity;
+  opacity: 1.0;
+  cursor: pointer;
+} 
+#redo-td {
+  width: 45px; 
+  border-radius: 2px;
+  background: #F3F3F3 url(redo32.png) no-repeat center center;
+  -webkit-transition: 200ms opacity; 
+  -moz-transition: 200ms opacity;
+  opacity: 0.5;
+}
+#redo-td:hover{
+  -webkit-transition: 200ms opacity; 
+  -moz-transition: 200ms opacity;
+  opacity: 1.0;
+  cursor: pointer;
+} 
